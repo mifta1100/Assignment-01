@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 body{
     overflow-x: hidden;
@@ -129,23 +129,42 @@ p {
     text-align: center;
 }
 
+.Text{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+    color: #000;
+}
+.Text1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: justify;
+    color: #000;
+}
+.Text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #000;
+}
+
 .row3{
-    background-color: antiquewhite;
+    background-color: rgb(223, 190, 147);
     margin: 200px ;
-    border: 5px solid wheat;
 }
 .row2{
-    background-color: floralwhite;
+    background-color: rgb(223, 190, 125);
     margin: 200px;
 }
 .row{
-    background-color: antiquewhite;
+    background-color: rgb(216, 164, 96);
     margin: 200px;
 }
 
 .btn{
     background-color: #ffffff;
     color: #000000;
+    font-weight: bold;
     border-radius: 10px;
     padding: 10px 20px;
     border: none;
@@ -155,6 +174,158 @@ p {
 }
 
 .one{
-    background-color: aquamarine;
-    margin: 500px;
+    background-color: rgb(248, 247, 246);
+    
+}
+
+#targets {
+    padding: 40px 0;
+}
+
+#targets h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#targets p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.target-items {
+    display: flex;
+    background-color: #f5f5f5;
+
+}
+
+.target-item {
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 30%;
+    min-width: 250px;
+}
+
+.target-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.target-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.target-item p {
+    text-align: right;
+    color: #666;
+    margin: 10px 0;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.learn-more:hover {
+    background: #0056b3;
+}
+
+.next-target {
+    margin-top: 40px;
+}
+
+.next-target .target-item {
+    width: 100%;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#support {
+    background-image: url('path/to/background-image.jpg') no-repeat center;
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.support-container {
+    background-image: url("../images/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.support-container .overlay {
+    opacity: .4;
+}
+
+#support h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#support p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-form input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.support-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+
+footer {
+    padding: 1px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+footer .rowfooter{
+    display: flex;
+    justify-content: end;
 }
