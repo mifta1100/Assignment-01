@@ -1,18 +1,35 @@
-body {
-    margin: 0px;
-    font-family: Arial, sans-serif;
-    background-image: url('/images/Hero-bg.png');
-    background-size: 50%;
-    margin-top: 20px;
-    
-    
-    
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
-    text-align: center;
-    padding: 50px;
+    width: 1320px;
+    margin: 0 auto;
 }
+
+.clr {
+    clear: both;
+}
+
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-size: 50%;
+    margin-top: 20px;
+}
+
 
 header {
     display: flex;
@@ -37,6 +54,7 @@ h1 {
 }
 
 .hero {
+    text-align: center;
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -68,4 +86,75 @@ p {
     cursor: pointer;
     font-size: 1em;
     margin-top: 20px;
+}
+
+#banner {
+    background-image: url('/images/Hero-bg.png');
+    background-size: cover;
+}
+
+#web-dev{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#web-dev .row{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#web-dev .row2{
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+}
+#web-dev .row2 p{
+    margin: 0 !important;
+    margin-top: 25px !important;
+}
+#web-dev .row2 .btn{
+    margin-top: 25px;
+}
+#web-dev .row2 .left{
+    margin-right: 40px;
+}
+#web-dev .row3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+#inspiration{
+    text-align: center;
+}
+
+.row3{
+    background-color: antiquewhite;
+    margin: 200px ;
+    border: 5px solid wheat;
+}
+.row2{
+    background-color: floralwhite;
+    margin: 200px;
+}
+.row{
+    background-color: antiquewhite;
+    margin: 200px;
+}
+
+.btn{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.one{
+    background-color: aquamarine;
+    margin: 500px;
 }
